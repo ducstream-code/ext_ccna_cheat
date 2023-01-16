@@ -8,8 +8,8 @@
     },
     "permissions": [
         "activeTab",
-        "https://*/*",
-        "http://*/*"
+        "https://assessment.netacad.net/*",
+        "http://assessment.netacad.net/*"
     ],
     "content_scripts": [
         {

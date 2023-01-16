@@ -10,3 +10,10 @@ enable developper mode
 je passe en FR flemme
 
 Ensuite tu clique sur Charger l'extension non empaqueté tu va dans le dossier extension et tu fais ouvrir et normalement ça t'installe l'extension
+
+Pour pouvoir l'utiliser sur d'autre site, modifier le manifest.json en mettant le domaine d'un autre site  
+Pour l'utiliser sur tout les sites, rajouter dans permissions:  
+```
+"https://*/*",
+"http://*/*" 
+```
